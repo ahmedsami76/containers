@@ -2,7 +2,7 @@
 
 ## build
 1. clone the repo 
-2. browse to `hadoop-containers/pseudo-dist` directory
+2. browse to `containers/pseudo-dist` directory
 3. build the docker image (e.g. `# docker build -t hadoop-psdist .`)
 4. start a container (e.g. `# docker container run -it --name "hadoopc" -h hadoopc hadoop-psdist`)
 
